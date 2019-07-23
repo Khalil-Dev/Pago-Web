@@ -1,0 +1,617 @@
+/* Main Page */
+			#titleBarDiv{
+			position:fixed;
+			position:sticky;
+			position: -webkit-sticky;
+			top:0px;
+			right:0px;
+			z-index:1;
+			background-color:white;
+			height:75px;
+			font-size:1.5em;
+			width:101%;
+			margin-left:-.5%;	
+			}
+			
+			#titleBarDiv img{
+			float:left;
+			margin-left:4%;
+			margin-bottom:0px;
+			margin-top:18px;
+			height:45px;
+			}
+			
+			#titleBarDiv h1{
+			float:left;
+			margin-left:6%;
+			margin-bottom:0px;
+			margin-top:0px;
+			}
+			
+			#pagoLogo{
+			color:#F66C09;
+			font-family:impact;
+			text-decoration:none;
+			font-style: italic;
+			}
+			
+/* 	Drop down Menu		 */
+			.container {
+			overflow: hidden;
+			font-family: helvetica;
+			margin-left:3%;
+			padding-top:25px;
+			float:left;
+			}
+
+			.container a {
+			float: left;
+			font-size: .6em;
+			color: grey;
+			text-align: center;
+			padding: 16px 16px;
+			text-decoration: none;
+			}
+
+			.dropdown {
+			float: left;
+			overflow: hidden;
+			margin-right:1px;
+			}
+
+			.dropdown .dropbtn {
+			font-size:.6em;    
+			border:none;
+			outline:none;
+			color:grey;
+			padding:14px 16px;
+			background-color:inherit;
+			font-style:;
+			}
+			
+/* Hover state */
+			.container a:hover, .dropdown:hover .dropbtn {
+			background-color: #F66C09;
+			border-radius:1px;
+			color:white;
+			}
+
+			.dropdown-content {
+			display:none;
+			position:absolute;
+			background-color:#f9f9f9;
+			min-width:160px;
+			box-shadow:0px 3px 5px 0px #dddddd;
+			z-index: 1;
+			}
+
+			.dropdown-content a {
+			float:none;
+			color:grey;
+			padding:12px 16px;
+			text-decoration:none;
+			display:block;
+			text-align:left;
+			}
+
+/* hover state background of the dropdown */
+			.dropdown-content a:hover { 
+			background-color:#dddddd;
+			color:black;
+			}
+
+			.dropdown:hover .dropdown-content {
+			display: block;
+			}
+		
+/* Sign in buttons */
+			#buttonsDiv{
+				float:right;
+				background-color:;
+				padding-top:30px;
+				width:auto;
+				margin-right:5%;
+			}
+			
+			#signInButton, #learnMoreButton{
+				color:#F66C09;
+				font-size:14px;
+				float:left;
+				padding:10px 15px;
+				border:1px #fe6902 solid;
+				margin-right:10px;
+				margin-left:10px;
+				text-decoration:none;
+				font-family:'Roboto', sans-serif;;
+				background-color:white;
+				
+				
+				font-style: normal;
+				 font-stretch: normal;
+				 line-height: normal;
+				letter-spacing: -0.1px;
+			}
+			
+			#getStartButton{
+				background-color:#F66C09;
+				color:white;
+				font-size:14px;
+				float:left;
+				padding:9.5px 15px;
+				border:0px;
+				border:1px #F66C09 solid;
+				
+			
+				font-style: normal;
+				 font-stretch: normal;
+				 line-height: normal;
+				letter-spacing: -0.1px;
+			}
+
+
+			
+			#getStartButton:hover{
+				background-color:white;
+				border:1px #fe6902 solid;
+				color:#fe6902;
+			}
+			
+			#signInButton:hover, #learnMoreButton:hover{
+				background-color:#F66C09;
+				color:white;
+			}
+			
+/* Text Sections */
+			#sectionDiv{
+				color:	#5b5b5b;
+				margin-bottom: 0px;
+				clear:both;	
+/*
+				background-color:pink;
+				overflow:hidden;
+*/
+				
+			}
+			
+			.clear{
+				clear:both;
+				margin-left:15%;
+			}
+			
+			.left{
+				float:left;
+				margin-left:15%;
+			}
+			
+			.right{
+				float:right;
+				margin-right:15%;
+			}
+			
+			#textBox{
+				padding-top:10%;
+				width:30%;
+				margin-bottom:50px;
+				background-color:;
+			}
+			
+			#textBox h1{
+				font-size:1.6em;
+				font-family:'Roboto', sans-serif;
+			}
+			
+			#textBox p{
+				font-size:.95em;
+				color:#9497a5;
+				font-family:arial;
+			}
+			
+			.orange{
+				color:#F66C09;
+			}
+			
+			.imgRight{
+				float:right;
+
+			}
+			
+			.imgLeft{
+				float:left;
+
+			}
+			
+			.imageClass1{
+				height:800px;
+				margin-top:-80px;
+			}
+			
+			.imageClass2{
+				height:500px;
+				margin-left:10%;
+				margin-top:0px;
+				
+			}
+			
+			.imageClass3{
+				height:500px;
+				margin-left:10%;
+				margin-top:50px;
+			}
+			
+			.imageClass4{
+				height:700px;
+				margin-top:-40px;
+			}
+			
+			.imageClass5{
+				height:550px;
+				margin-left:10%;
+				margin-top:0px;
+			}
+			
+			.imageClass6{
+				height:800px;
+				margin-top:-220px;
+			}
+			
+			.imageClass7{
+				height:500px;
+				margin-left:10%;
+				margin-top:0px;
+			}
+			
+
+			
+/* Alert Box */
+			.alert-bg{
+				background-color:#F66C09;
+				padding:10px;
+			}
+			
+			
+			
+			.swal-content{
+				float:left;
+				width:90%;
+				margin-bottom:10px;
+			}
+			
+			.swal-title{
+				font-size:35px;
+				color:black;
+				font-family:'Roboto', sans-serif;;
+				
+			}
+			
+			.swal-text{
+				font-size:18px;
+				color:black;
+				font-family:'Roboto', sans-serif;;
+				margin-bottom:0px;
+				
+			}
+			
+			.swal-button{
+				background-color:black;
+				color: white;
+				float:right;
+				font-size:20px;
+			}
+/* List Options in Section 7: Revenue */
+			#divFive{
+				margin-left:10%;
+				
+			}
+			
+			.optionClass{
+				padding:5px;
+				background-color:#FFF5EB;
+				border-radius:2px;
+				text-align:center;
+				margin-right:20px;
+				font-family:'Roboto', sans-serif;;
+				font-size:1em;
+			}
+			
+			/* #orangeSection Div */
+			#sectionOrangeDiv{
+				height:500px;
+				width:101%;
+				background-image:url("images/image8(Orange).png");
+				background-repeat: no-repeat;
+				background-size:center;
+				background-size:cover;
+				color:white;
+				text-align:center;
+				margin-left:-.5%;
+				margin-top:200px;
+				padding-top:200px;
+			}
+			
+			#sectionOrangeDiv #textBox{
+				margin-left:35%;
+				padding-top:;
+			}
+			
+			#sectionOrangeDiv #textBox p{
+				color:white;
+			}
+			
+			.orangeText{
+				margin-top:-190px;
+			}
+			
+/* Section 9 Revenue: Partner Box	 */
+			#partnerBox{
+				margin-top:170px;
+				box-shadow:0px 14px 64px #e1e0e0;
+				padding: 20px 20px 50px 20px ;
+				border-radius:2px;
+				text-align:left;
+				font-family:'Roboto', sans-serif;;
+			}
+			
+			#partnerBox h1{
+				font-size:1.1em;
+				color:#9497a5;
+			
+			}
+			
+			i{
+				color:#F66C09;
+				position:relative;
+				left:-287px;
+					
+			}
+			
+			input[type= "text"]{
+/* 				box-shadow:0px 14px 64px #e1e0e0; */
+				width:250px;
+				padding:8.5px;
+				padding-left:30px;
+				font-size:.9em;
+				font-family:'Roboto', sans-serif;;
+			}
+/* Footer		 */			
+			footer{
+				width:101%;
+				margin-left:-.5%;
+				background-color:white;
+				position:fixed;
+				position:sticky;
+				position: -webkit-sticky;
+				bottom:0px;	
+				padding-left:0%;
+				clear:both;
+				height:260px;	
+			}
+			
+			#imgLogoDiv{
+				margin-left:14%;
+				margin-bottom:0px;
+			}
+
+			footer img{
+				float:left;
+				margin:10px;
+				position:relative;
+				z-index:1;	
+			}
+			
+			#footDiv1{
+				margin-top:10px;
+				margin-left:12%;
+				padding-bottom:1px;
+				float:left;
+				font-family:'Roboto', sans-serif;;
+			}
+			
+			#pagoLogo2{
+				color:#F66C09;
+				font-family:impact;
+				text-decoration:none;
+				font-style: italic;
+				font-size:.9em;
+				margin-bottom:20px;
+				
+			}
+			
+			#pagoLogo2 img{
+				height:30px;
+				margin-left:-0px;
+				
+			}
+			
+			#footDiv1 h6{
+				color:#9497a5;
+				margin-top:-15px;
+				font-size:.8em;
+				margin-left:55px;
+			}
+			
+			#twitterLogoImg{
+				width:20px;
+				margin-left:0px;
+				float:left;
+				margin-top:-4px;
+			}
+			
+			
+			
+/* 2nd Footer Menu */
+			#footDiv2{
+				margin-top:10px;
+				margin-left:10%;
+				padding-bottom:1px;
+				float:left;
+				font-family:'Roboto', sans-serif;;
+				background-color:;
+			}
+
+
+			#footDiv2 h2{
+				color:#fe6902;
+				font-size:15px;	
+			}
+			
+			
+			#footDiv2 a{
+				text-decoration: none;
+				color:#9497a5;
+				font-size:.8em;
+			}
+			
+/* Copyright Div */
+			#copyrightDiv{
+				clear:both; 
+				margin-left:10%;
+				background-color:;
+			}
+			
+			#copyrightDiv p{
+				color:#9497a5;
+				font-size:.8em;
+			}
+			
+/* -------------------------------------------------------------------		 */
+
+/* Extra Pages: About Page/ Logos Page/ Press Page/ Pricing Page		 */
+
+
+/* Side Menu */
+			#sideMenu{
+				float:left;
+				width:15%;
+				margin-left:18%;
+				margin-top:0px;
+				background-color:;
+				position:sticky;
+				position:fixed;
+				position: -webkit-sticky;
+				top:80px;
+			}
+			
+			#sideMenu li{
+				list-style-type: none;
+				margin-top:10px;
+			}
+			
+			#sideMenu a{
+			text-decoration:none;
+			color:black;
+			font-family:'Roboto', sans-serif;;
+			}
+			
+			#sideMenu a:hover{
+				color:#fe6902;
+			}
+			
+/* About Content	 */
+			#aboutContent{
+				width:30%;
+				float:right;
+				font-family:'Roboto', sans-serif;;
+				margin-right:30%;
+				padding-top:0px;	
+				margin-top:0px;
+				background-color:;
+			}
+			
+			#aboutContent h1{
+				font-weight:bold;
+				font-size:.95em;
+				margin-top:30px;
+			}
+			
+			#aboutContent p{
+				font-size:.9em;
+				margin-top:30px;
+				font-family:'Roboto', sans-serif;;
+			
+			}
+			
+			#companyDiv{
+				margin-bottom:300px;
+			}
+			
+/* Pago logo press kit */
+			#logosDiv{
+				margin-bottom:250px;
+			}
+
+			#logosDiv img{
+				width:150px;
+				margin-left:7%;
+			}
+			#logosDiv h2{
+				clear:both;
+				margin-left:30%;
+				margin-top:40px;
+				font-weight:bold;
+				font-size:.95em;
+				margin-top:30px;
+			}
+			
+			#logosDiv a{
+				text-decoration:none;
+				color:black;
+			}
+			
+			
+/* Pricing for Merchants		 */
+			#priceDiv{
+				text-align:center;
+				font-family:'Roboto', sans-serif;;
+				margin-top:0px;
+			}
+			
+			
+			
+			#priceBox{
+				background-color: #f1f0f0;
+				border-radius:10px;
+				padding:10px;
+				height:260px;
+				margin-bottom:250px;
+				
+			}
+			
+			#priceBox h2{
+				font-size:1.25em;
+				margin-bottom:15px;
+				
+			}
+			
+			#priceBox hr{
+				width:70%;
+			}
+			
+			#priceBox h3{
+				font-size:1.3em;
+				color:#fe6902;
+				margin-top:15px;
+			}
+			
+			#priceBox p{
+				color:#aaa9a9;
+				margin-top:10px;
+				text-align:left;
+				
+			}
+			#priceBox img{
+				margin-left:33%;
+				margin-right:10px;
+				
+			}
+			
+			#priceBox button{
+				margin-left:35%;	
+			}
+			
+/* 			Keeps the anchor positioned correctly */
+			.anchorClass{
+				display:block;
+				padding-top:0px;
+				margin-top:-0px;
+				
+			}			

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- Colors:
+	Pago Orange = #FD9846
+	pargraph grey: #bfbfbf
+	-->
+
+<html>
+	<head>
+		<title>
+			About Pago 
+		</title>
+		<link rel = "stylesheet" href = "PagoStyle.css" type = "text/css">
+		
+<!-- Section 9: Icon in Partner with us Input -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+		
+<!-- Plug-in for Customized Pop Up Box -->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		
+		
+		
+		
+	</head>
+	<body>
+		
+<!-- 		Title Box: Contains Pago Logo & Navigation -->
+		<div id = "titleBarDiv">
+			<a href = "Pago.html" id = "pagoLogo"><img src = "images/pagoorangelogo.png"></a>
+			
+			<div class="container">
+				<div class="dropdown"> <!--This is the dropdown button-->
+					<button class="dropbtn">Platform</button>
+					<div class="dropdown-content">
+ 						<a href="Pago.html#section2">Unbanked Internet Consumers</a>
+						<a href="Pago.html#section6">Online Merchants</a>
+						<a href="Pago.html#section7">Telecoms</a>
+					</div>
+				</div> 
+				
+				<div class="dropdown"> <!--This is the dropdown button-->
+					<button class="dropbtn">Company</button>
+					<div class="dropdown-content">
+						<a href="Pago.html#section8">About Pago</a>
+						<a href="Pago.html#section9">Partner Program</a>
+						<a href="PagoAbout.html">Press</a>
+					</div>
+				</div> 
+				
+				<a href = "PagoPrice.html" id = "pricingButton">Pricing</a>
+			</div>
+			
+			
+			<div id = "buttonsDiv">
+				<button id = "signInButton" onclick = "alert('button')" onmouseover="this.style.cursor='pointer';">
+					Sign in
+				</button>
+				<button  id = "getStartButton" onclick = "getStartedAlert()" onmouseover="this.style.cursor='pointer';">
+					Get Started
+				</button>
+			</div>
+		</div>
+
+		
+
+<!-- Overall Container for all content	 -->
+		<div id = "aboutContent" style= "margin-right:35%;">
+			
+	<!-- Price Section -->			
+			<div id = "priceDiv">
+				<br>
+				<a name = "priceAnchor"  class = "anchorClass"></a>
+				<h4>
+					Pricing for Merchants
+				</h4>
+				
+				<div id = "priceBox">
+					<h2>
+						FOR MERCHANTS
+					</h2>
+					
+					<hr>
+					
+					<h3>
+						5% + R0.30
+					</h3>
+					<img src="images/Twitter_Social_Icon_Circle_Color.png" id = "twitterLogoImg">
+					<p>
+						No monthly fees
+					</p>
+					<img src="images/Twitter_Social_Icon_Circle_Color.png" id = "twitterLogoImg">
+					<p>
+						Real-time reporting
+					</p>
+					<img src="images/Twitter_Social_Icon_Circle_Color.png" id = "twitterLogoImg">
+					<p>
+						Increased sales
+					</p>
+					
+					<button id = "getStartButton" onclick = "getStartedAlert()" onmouseover="this.style.cursor='pointer';">Create Account</button>
+				</div>
+			</div>
+		</div>
+
+
+		
+
+
+
+<!-- Footer	 -->
+		<footer>
+			<div id = "imgLogoDiv">
+				<img src = "images/Logos.png" style = "height:75px;"/> 
+				
+			</div>
+			<div style = "clear:both">
+	<!-- 		1st Menu	 -->
+				<div id = "footDiv1">
+					
+					<a href = "#homeSection" id = "pagoLogo2"><img src = "images/pagoorangelogo.png"></a>
+					<div style = "clear:both;">
+						<img src="images/Twitter_Social_Icon_Circle_Color.png" id = "twitterLogoImg">
+						<h6>paywithpago</h6>
+					</div>
+					
+					<div>
+						<img src="images/facebook-icon-preview.png" id = "twitterLogoImg">
+						<h6>paywithpago</h6>
+					</div>
+					
+					
+					<div>
+						<img src="images/Google%20%2B.png" id = "twitterLogoImg">
+						<h6>support@paywithgo.com</h6>
+					</div>
+					
+					
+				</div>
+				
+				
+	<!-- 		2nd Menu	 -->
+				<div id = "footDiv2" style = "margin-left:20%;">
+					
+					<h2>Platform</h2>
+					<p><a href = "Pago.html#section2">Unbanking Internet Consumers</a></p>
+					<p><a href = "Pago.html#section6">Online Merchants</a></p>
+					<p><a href = "Pago.html#section7">Telecoms</a></p>
+					
+				</div>
+				
+				
+	<!-- 		3rd Menu	 -->
+				<div id = "footDiv2" style = "margin-left:8%;">
+					
+					<h2>Company</h2>
+					<p><a href = "Pago.html#section8">About Pago</a></p>
+					<p><a href = "Pago.html#section9">Partner Program</a></p>
+					<p><a href = "PagoAbout.html">Press</a></p>
+					
+				</div>
+				
+	<!-- 		4th Menu	 -->
+				<div id = "footDiv2" style = "margin-left:8%;">
+					
+					<h2>Pago</h2>
+					<p><a href = "">Contact</a></p>
+					<p><a href = "">Privacy & Terms</a></p>					
+				</div>
+			</div>
+			
+			<div id = "copyrightDiv">
+				<p style = "float:left">2018 Copyright by Pago Technologies Inc. All rights reserved.</p>
+				<p style = "margin-left:60%;">Something will go here</p>
+			</div>
+		</footer>
+		
+		
+<!-- Plug in for Customized Alert Box -->
+		<script type="text/javascript" src = "pago.js">	
+		</script>
+	</body>
+</html>
